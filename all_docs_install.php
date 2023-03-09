@@ -1,3 +1,5 @@
+<?
+
 function all_docs_install($id) ///Получение пути раздела
 {
     $dir = $id;
@@ -16,3 +18,5 @@ function all_docs_install($id) ///Получение пути раздела
     }
     return $result; ///Возвращаем массив с полученным результатом
 }
+
+?>
